@@ -36,7 +36,7 @@ pub struct Github {
 
 // settings template
 const TEMPLATE: &str = 
-r#"# Report bugs at [placeholder]
+r#"# Report bugs at https://github.com/peri-perihelion/VRC-SupporterBot
 
 # text at the beginning of the file, the title
 preface = ""
@@ -67,6 +67,7 @@ server_id = 0
 [github]
 # github access token from: https://github.com/settings/personal-access-tokens
 token = ""
+# this two will be filled automatically, dont fill them out unless you want to specify a gist to edit
 gist_id = ""
 gist_name = ""
 "#;
