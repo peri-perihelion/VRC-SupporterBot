@@ -1,0 +1,12 @@
+[package]
+name = "supporter_bot"
+version = "2.1.0"
+edition = "2024"
+
+[dependencies]
+indexmap = { version = "2.13.0", features = ["serde"]}
+octocrab = "0.48.0"
+serde = "1.0.228"
+serenity = "0.12"
+tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
+toml = { version = "1.0.6", features = ["preserve_order"]}
