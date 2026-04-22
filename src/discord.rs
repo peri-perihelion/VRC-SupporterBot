@@ -127,7 +127,7 @@ fn strip_special_characters(word: String) -> String{
     word.replace("_", "").replace(".", "")
 }
 
-/// Returns true if from contains at least one matching element from to.
+/// Returns true if "from" contains at least one matching element in "to".
 fn shared_elements<T: Eq>(from: &Vec<T>, to: &Vec<T>) -> bool{
     for n in 0..from.len() {
         if to.contains(from.get(n).unwrap()){

@@ -67,7 +67,7 @@ server_id = 0
 [github]
 # github access token from: https://github.com/settings/personal-access-tokens
 token = ""
-# this two will be filled automatically, dont fill them out unless you want to specify a gist to edit
+# you can optionally fill these out to specify a gist to use. if empty, the bot will just create and use a new one
 gist_id = ""
 gist_name = ""
 "#;
