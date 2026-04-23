@@ -6,7 +6,6 @@ Instead of having to copy and paste usernames, this program automates the entire
 Read [the wiki](https://github.com/peri-perihelion/VRC-SupporterBot/wiki) for setup instructions, and additional information about the program. <br>
 This program can be seen in use at [Arti's Avatar World](https://vrchat.com/home/launch?worldId=wrld_186c5fde-7f65-4cf8-a68d-f828690004fc).
 ![A list of patreon supporters in a VRChat world.](images/readme-preview.png)
-
 *If you use this tool, get in contact! Id love to list your world here!*
 
 ### Prerequisites:
