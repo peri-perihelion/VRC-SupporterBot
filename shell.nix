@@ -22,8 +22,4 @@ pkgs.mkShell {
 
     rustup target add x86_64-pc-windows-msvc
   '';
-
-  # avoid polluting the home directory
-  RUSTUP_HOME = toString ./.rustup;
-  CARGO_HOME = toString ./.cargo;
 }
